@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Tak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex" >
+            <a href="#">
+                <img src="./assets/news-logo.png" alt="Comapny Logo"/>
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-links nav-items" id="ipl" onclick="changeSearchItem('ipl')">IPL</li>
+                    <li class="hover-links nav-items" id="finance" onclick="changeSearchItem('finance')">Finance</li>
+                    <li class="hover-links nav-items" id="politics" onclick="changeSearchItem('politics')">Politics</li>
+                    <li class="hover-links nav-items" id="technology" onclick="changeSearchItem('technology')">Technology</li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchTxt" class="news-input" placeholder="eg. science">
+                <button id="searchBtn" class="searchBtn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
