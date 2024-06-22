@@ -108,6 +108,7 @@ nav{
 main{
     padding-block: 20px;
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .cards-container{
@@ -119,7 +120,9 @@ main{
 
 .card{
     width: 360px;
-    min-height: 400px;
+    height: 365px;
+    /* min-height: 300px;
+    max-height: 350px; */
     box-shadow: 0 0 4px #d4ecff;
     border-radius: 6px;
     cursor: pointer;
@@ -142,4 +145,43 @@ main{
 }
 .news-source{
     margin-block: 12px;
+}
+
+
+footer{
+    background-color: #f3faff;
+    box-shadow: 0 0 4px;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+.main-footer{
+    justify-content: space-between;
+    padding: 6px 0px;
+}
+.bottom-btn{
+    height: 32px;
+    gap: 6px;
+}
+.backBtn{
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+.numBtn{
+    background-color: var(--accent-color);
+    color: white;
+    width: 32px;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 1px;
 }
