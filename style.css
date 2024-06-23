@@ -103,6 +103,12 @@ nav{
 .searchBtn:hover{
     background-color: var(--accent-color-dark);
 }
+#saveBtn:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #e5f2f8;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+}
 
 
 main{
