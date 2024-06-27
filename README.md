@@ -5,10 +5,19 @@ News Tak is a web application that allows users to search and browse news articl
 
 ## Features
 - **Category Navigation**: Quickly switch between different news categories.
+  
+  ![ScreenShots](https://github.com/prince-132/News-Application/blob/main/Images/Screenshot%202024-06-27%20002810.png)
 - **Search Functionality**: Search for news articles by keywords.
+  
+  ![ScreenShots](https://github.com/prince-132/News-Application/blob/main/Images/Screenshot%202024-06-27%20002837.png)
 - **Save Articles**: Save your favorite articles locally for easy access.
+  
+  ![ScreenShots](https://github.com/prince-132/News-Application/blob/main/Images/Screenshot%202024-06-27%20002922.png)
 - **Pagination**: Navigate through multiple pages of news articles.
+  ![ScreenShots](https://github.com/prince-132/News-Application/blob/main/Images/Screenshot%202024-06-27%20002705.png)
 - **Responsive Design**: Optimized for both desktop and mobile views.
+  
+  ![ScreenShots](https://github.com/prince-132/News-Application/blob/main/Images/Screenshot%202024-06-27%20002635.png)
 
 ## Technologies Used
 - **HTML**: Structure of the web application.
@@ -53,3 +62,4 @@ The JavaScript file handles the functionality of the web application, including:
 This application uses the News API to fetch news articles. Make sure to replace the API key in `script.js` with your own API key:
 ```bash
 const API_KEY = 'your_api_key_here';
+```
